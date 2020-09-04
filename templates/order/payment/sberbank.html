@@ -1,0 +1,14 @@
+{% extends "order/payment/details.html" %}
+{% load i18n %}
+
+{% block forms %}
+
+    {{ form }}
+
+    <a href="{{ form.sberbank_payment_url }}">
+        <button class="btn btn-primary">
+            {% trans "Make payment" context "Payment form primary action" %}
+        </button>
+    </a>
+
+{% endblock forms %}
