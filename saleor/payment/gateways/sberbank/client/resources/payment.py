@@ -29,7 +29,7 @@ class Payment(Resource):
             :param data:
         """
         data['amount'] = amount
-        data['orderNumber'] = order_id
+        data['orderNumber'] = "mymilavitsacom-" + str(order_id)
         data['returnUrl'] = return_url
 
         return self.post_url(URL.REGISTER_URL, data, **kwargs)
@@ -45,5 +45,5 @@ class Payment(Resource):
             Order status in the payment system
         """
 
-        data['orderId'] = order_id
+        data['orderNumber'] = "mymilavitsacom-" + str(order_id)
         return self.post_url(URL.STATUS_URL, data, **kwargs)

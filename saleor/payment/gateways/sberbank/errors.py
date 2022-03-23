@@ -28,11 +28,11 @@ SYSTEM_ERRORS = [
 ]
 
 ERRORS = {
-    1: ORDER_ERRORS,
-    2: [],
-    3: CURRENCY_ERRORS,
-    4: REQUEST_ERRORS,
-    5: VALUE_ERRORS,
-    6: [],
-    7: SYSTEM_ERRORS,
+    '1': ORDER_ERRORS,
+    '2': [],
+    '3': CURRENCY_ERRORS,
+    '4': REQUEST_ERRORS,
+    '5': VALUE_ERRORS,
+    '6': [],
+    '7': SYSTEM_ERRORS,
 }

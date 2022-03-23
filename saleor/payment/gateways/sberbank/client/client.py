@@ -1,4 +1,3 @@
-import json
 import requests
 
 from .constants import HTTP_STATUS_CODE, ERROR_CODE, URL
