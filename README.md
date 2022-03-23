@@ -1,8 +1,8 @@
 # Плагин оплаты через Сбербанк API для Saleor
 
 # Важно
-Плагин для релиза Saleor 2.9 - в ветке 2.9
-Плагин для релиза Saleor 2.11- в ветке 2.11 
+* Плагин для релиза Saleor 2.9 - [смотри ветку 2.9](https://github.com/korolevpavel/saleor-gateaway-sberbank/tree/2.9)
+* Плагин для релиза Saleor 2.11 - [смотри ветку 2.11](https://github.com/korolevpavel/saleor-gateaway-sberbank/tree/2.11)
 
 # Установка 
 * Склонировать файлы репозитория к себе
