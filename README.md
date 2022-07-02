@@ -1,5 +1,7 @@
 # Плагин оплаты через Сбербанк API для Saleor
 
+[![Join telegram chat](https://img.shields.io/badge/chat-telegram-blue?style=flat&logo=telegram)](https://t.me/django_ecommerce) 
+
 # Важно
 * Плагин для релиза Saleor 2.9 - [смотри ветку 2.9](https://github.com/korolevpavel/saleor-gateaway-sberbank/tree/2.9)
 * Плагин для релиза Saleor 2.11 - [смотри ветку 2.11](https://github.com/korolevpavel/saleor-gateaway-sberbank/tree/2.11)
